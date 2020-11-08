@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<link rel="stylesheet" type="text/css" href="/css/index.css">
+
+<head>
+	<meta charset="utf-8">
+	<title> SIRCAP </title>
+</head>
+
+<body>
+
+	<header>
+		<h2 class="titulo"> SIRCAP: Sistema Informático para el Registro y Control de Alumnos  y  Personal </h2>
+		<img src="conservatorio logo.png" class="logo">
+	</header>
+	
+	<div align="center">
+		<form method="POST" action="/php/login.php" novalidate>
+
+ 			<div class="inicio">
+ 				<h2> INICIO DE SESION </h2>
+				<br>
+ 				Usuario <input type='text' name="usuario" placeholder="Ejemplo: Admin" size="20" maxlength="20" minlength="3" required>
+ 				<br>
+ 				Contraseña <input type='text' name="contrasena" placeholder="Ejemplo: 123456" size="20" maxlength="20" minlength="3" required>
+ 				<br>
+ 				<input type="submit" name="enviar" class="botonInicio" placeholder="Enviar" value="INGRESAR" required>
+ 			</div>
+ 		</form>
+	</div>
+
+</body>
+</html>
